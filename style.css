@@ -1,0 +1,259 @@
+/* -===-====Google Fonts==---=--=---= */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:wght@400;700&family=Ubuntu+Condensed&display=swap'); 
+
+/* -===-====Css==---=--=---= */
+body{
+    font-family: 'Lato', sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.strict-sec-title{
+    text-align: center;
+    padding-bottom: 20px ;
+}
+
+.strict-sec-title h2{
+    color:#2d3950;
+    font-size: 35px;
+}
+p{
+    color:#999999;
+    font-size: 15px;
+}
+
+/* -===-==== Header Css==---=--=---= */
+.strict-header{
+    background: #f6f9f9;
+    padding: 30px 0;
+}
+.strict-menu{}
+.strict-menu ul li a{
+    color:#454444;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px 20px;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 700;
+    transition: .5s;
+}
+.strict-menu ul li a:hover{
+    color: #15a4fa;
+}
+
+/* -===-==== Banner Css==---=--=---= */
+.strict-banner{
+    background-image: url("images/Strict.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0 15px;
+
+}
+.strict-banner-text{}
+.strict-banner-text h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 30px;
+       
+}
+.strict-banner-text span{
+    color: white;
+    border-top: 1px solid #15a4fa;
+    display: inline-block;
+    padding:30px 20px 0 ;
+}
+.strict-banner-button{
+    padding: 65px 0;
+}
+.strict-banner-button a{
+    color: white;
+    border: 1px solid #15a4fa;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.strict-banner-button a:hover{
+    background-color: #15a4fa;
+}
+.strict-banner-button i{
+    display: block ;
+    color: white;
+    margin-top: 150px;
+
+}
+
+/* -===-==== About Css==---=--=---= */
+.strict-about{
+    background-color: #f6f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+.strict-about p{
+    font-size: 20px;
+}
+.strict-sec-title{}
+.strict-about-content{}
+
+/* -===-==== Service Css==---=--=---= */
+
+.strict-service{
+    background-color: white;
+    padding: 80px 0;
+}
+.strict-service-content{
+    text-align: center;
+   
+}
+.strict-service-icon{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient( to right,#48baff 50%,#5fc3ff 50%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-bottom: 30px ;
+}
+.strict-service-icon i{
+    font-size: 25px;
+    color: white;
+}
+.strict-service-text{}
+.strict-service-text h4{
+    font-size: 22px;
+}
+
+/* -===-==== Portfolio Css==---=--=---= */
+
+
+.strict-portfolio{
+    padding: 80px 0;
+    background-color: #f6f9f9;
+}
+.strict-port-img{
+     position: relative; 
+     margin-bottom: 30px;
+}
+.strict-port-overlay{
+    background-color: rgb(21,164,250,.9);
+    position:absolute;
+     top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    opacity: 0;
+    transition: .5s;
+}
+.strict-port-overlay ul{
+    padding: 0;
+    list-style: none;
+    display:flex;
+}
+.strict-port-overlay ul li{
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 0 3px;
+}
+.strict-port-overlay ul li i{
+    color: white;
+}
+
+.strict-port-img:hover .strict-port-overlay{
+   opacity: 1;
+}
+
+/* -===-==== Contact Css==---=--=---= */
+
+.strict-contact{
+    background-image: url("images/7.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.strict-contact-overlay{
+    background-color: rgba(45,57,80,.9);
+    padding: 80px 0;
+}
+.strict-contact .strict-sec-title h2{
+    color: white;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.strict-contact-form{}
+.strict-contact-form .form-group input,
+.strict-contact-form .form-group textarea{
+   background-color: transparent;
+   border: 1px solid #999999;
+}
+
+.strict-form-bottom{
+    overflow: hidden;
+}
+.strict-form-left{
+    float:left;
+}
+.strict-form-left input{
+    margin-right: 5px;
+}
+.strict-form-left label{
+    color: white;
+}
+.strict-form-right{
+    float:right;
+}
+.strict-form-right input{
+    color: white;
+    border: 1px solid #15a4fa;
+    background-color: transparent;
+    padding: 3px 20px;
+    transition: 0.5s;
+}
+.strict-form-right input:hover{
+    background-color:#15a4fa ;
+}
+
+/* -===-==== Footer Css==---=--=---= */
+.strict-footer{
+    overflow: hidden;
+    padding: 25px 0;
+    background-color: #f6f9f9;
+}
+.strict-footer p{
+    margin: 0;
+}
+.strict-social-network{}
+
+.strict-social-network ul{
+    float: right;
+    margin: 0;
+}
+.strict-social-network ul li{
+    height: 35px;
+    width: 35px;
+    background-color: #15a4fa;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strict-social-network ul li a{
+    color: white;
+}
+
+
